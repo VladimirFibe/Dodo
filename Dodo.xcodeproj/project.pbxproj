@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0229B6322A9B53D50014815E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229B6312A9B53D50014815E /* AppDelegate.swift */; };
-		0229B6342A9B53D50014815E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229B6332A9B53D50014815E /* SceneDelegate.swift */; };
 		0229B6362A9B53D50014815E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229B6352A9B53D50014815E /* ViewController.swift */; };
-		0229B6392A9B53D50014815E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0229B6372A9B53D50014815E /* Main.storyboard */; };
 		0229B63B2A9B53D50014815E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0229B63A2A9B53D50014815E /* Assets.xcassets */; };
 		0229B63E2A9B53D50014815E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0229B63C2A9B53D50014815E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		0229B62E2A9B53D50014815E /* Dodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0229B6312A9B53D50014815E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0229B6332A9B53D50014815E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0229B6352A9B53D50014815E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0229B6382A9B53D50014815E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0229B63A2A9B53D50014815E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0229B63D2A9B53D50014815E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0229B63F2A9B53D50014815E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				0229B6312A9B53D50014815E /* AppDelegate.swift */,
-				0229B6332A9B53D50014815E /* SceneDelegate.swift */,
 				0229B6352A9B53D50014815E /* ViewController.swift */,
-				0229B6372A9B53D50014815E /* Main.storyboard */,
 				0229B63A2A9B53D50014815E /* Assets.xcassets */,
 				0229B63C2A9B53D50014815E /* LaunchScreen.storyboard */,
 				0229B63F2A9B53D50014815E /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				0229B63E2A9B53D50014815E /* LaunchScreen.storyboard in Resources */,
 				0229B63B2A9B53D50014815E /* Assets.xcassets in Resources */,
-				0229B6392A9B53D50014815E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				0229B6362A9B53D50014815E /* ViewController.swift in Sources */,
 				0229B6322A9B53D50014815E /* AppDelegate.swift in Sources */,
-				0229B6342A9B53D50014815E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0229B6372A9B53D50014815E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0229B6382A9B53D50014815E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0229B63C2A9B53D50014815E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +276,9 @@
 				INFOPLIST_FILE = Dodo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +304,9 @@
 				INFOPLIST_FILE = Dodo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
